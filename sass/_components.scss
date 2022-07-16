@@ -1,0 +1,47 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.shadow-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: $shadow-color;
+    z-index: 0;
+}
+
+.dog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-top;
+    padding: 3em;
+    width: 92%;
+    height: 92%;
+    background-color: $dark-shadow;
+    border-radius: 50px;
+    transition: opacity .3s;
+
+    h2 {
+        color: $white;
+        font-family: 'Fredoka One', cursive;
+        text-align: center;
+    }
+
+    p {
+        color: $white;
+        text-align: center;
+    }
+}
+
+.section-header {
+    padding: .8em;
+    font-size: 3.5rem;
+    color: $dark-green;
+    text-align: center;
+    text-transform: uppercase;
+}

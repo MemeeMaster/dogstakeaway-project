@@ -1,0 +1,22 @@
+.show-menu {
+    left: 0;
+}
+
+.extend-card {
+    clip-path: circle(130% at 50% 100%);
+}
+
+.display-none {
+    display: none;
+}
+
+.contact-click {
+    color: #000;
+    background-color: $light-green;
+}
+
+.dark-hamburger-color,
+.dark-hamburger-color::after,
+.dark-hamburger-color::before {
+    background-color: $dark-green !important;
+}

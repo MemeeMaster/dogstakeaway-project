@@ -1,0 +1,47 @@
+@keyframes titlePulse {
+    0% {
+        transform: scale(1) rotateZ(-10deg);
+    }
+
+    50% {
+        transform: scale(1.1) rotateZ(-10deg);
+    }
+
+    100% {
+        transform: scale(1) rotateZ(-10deg);
+    }
+}
+
+@keyframes rotateNegative {
+    from {
+        transform: rotateZ(0);
+    }
+
+    to {
+        transform: rotateZ(-360deg);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes pulseIcon {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

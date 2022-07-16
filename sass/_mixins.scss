@@ -1,0 +1,44 @@
+@mixin bgImages {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin bars {
+    position: absolute;
+    left: 0;
+    height: 3px;
+    background-color: $white;
+    transition: width .3s;
+}
+
+@mixin menuLinks {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 0;
+    background-color: $dark-green;
+    transition: height .3s;
+}
+
+@mixin icons {
+    position: absolute;
+    color: $white;
+    text-shadow: 0 0 10px $shadow-color;
+    transform: rotateZ(0);
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin dogsHover {
+    &:hover {
+        .dog-info {
+            opacity: 1;
+        }
+    }
+}
